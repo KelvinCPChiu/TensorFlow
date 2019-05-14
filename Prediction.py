@@ -44,8 +44,8 @@ def training():
     timesteps = 30
     num_hidden = 49
     num_classes = 7
-
-    data_set = numpy.load('MarkSix.npy')
+    file_dir = 'Test.npy'
+    data_set = numpy.load(file_dir)
     print('Shape of the Dataset:', data_set.shape)
     # data_set = data_set[0:2999+1]
 
